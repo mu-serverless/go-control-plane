@@ -141,6 +141,7 @@ const (
 	// and instead using the new load_balancing_policy field as the one and only mechanism for
 	// configuring this.]
 	Cluster_LOAD_BALANCING_POLICY_CONFIG Cluster_LbPolicy = 7
+	Cluster_PREDICTIVE_LEAST_CONN        Cluster_LbPolicy = 8
 	// Deprecated: Do not use.
 	Cluster_hidden_envoy_deprecated_ORIGINAL_DST_LB Cluster_LbPolicy = 4
 )
