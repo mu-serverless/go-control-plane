@@ -156,6 +156,7 @@ var (
 		5: "MAGLEV",
 		6: "CLUSTER_PROVIDED",
 		7: "LOAD_BALANCING_POLICY_CONFIG",
+		8: "PREDICTIVE_LEAST_CONN",
 		4: "hidden_envoy_deprecated_ORIGINAL_DST_LB",
 	}
 	Cluster_LbPolicy_value = map[string]int32{
@@ -166,6 +167,7 @@ var (
 		"MAGLEV":                       5,
 		"CLUSTER_PROVIDED":             6,
 		"LOAD_BALANCING_POLICY_CONFIG": 7,
+		"PREDICTIVE_LEAST_CONN":        8,
 		"hidden_envoy_deprecated_ORIGINAL_DST_LB": 4,
 	}
 )
